@@ -11,13 +11,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CsvToMapConverter {
-    public static Map<String, String> get() {
-//        String csvFilePath = "C:\\Users\\nksokolo\\Desktop\\flink\\sights.csv";
-        String csvFilePath = "/root/data/sights.csv";
+    public static Map<String, String> get(String path) {
 
         Map<String, String> dataMap = new HashMap<>();
 
-        try (Reader reader = new FileReader(csvFilePath);
+        try (Reader reader = new FileReader(path);
              CSVParser csvParser = new CSVParser(reader, CSVFormat.newFormat(';'))) {
 
             for (CSVRecord record : csvParser) {

@@ -5,7 +5,7 @@
       <webServer id="86841866-ef2f-40eb-a947-c9cf7edeba67" name="flink-server">
         <fileTransfer accessType="SFTP" host="178.208.79.11" port="22" sshConfigId="d46aadb4-d597-4548-9894-29eea41f3ccb" sshConfig="root@178.208.79.11:22 password">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

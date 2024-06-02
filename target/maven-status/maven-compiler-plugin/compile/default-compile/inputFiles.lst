@@ -1,1 +1,7 @@
-C:\Users\nksokolo\my-flink-2\quickstart\src\main\java\org\myorg\quickstart\DataStreamJob.java
+/Users/nikolaj/IdeaProjects/flink3/src/main/java/org/myorg/quickstart/src/CsvToMapConverter.java
+/Users/nikolaj/IdeaProjects/flink3/src/main/java/org/myorg/quickstart/entities/Sight.java
+/Users/nikolaj/IdeaProjects/flink3/src/main/java/org/myorg/quickstart/DataStreamJob.java
+/Users/nikolaj/IdeaProjects/flink3/src/main/java/org/myorg/quickstart/entities/CityPojo.java
+/Users/nikolaj/IdeaProjects/flink3/src/main/java/org/myorg/quickstart/entities/Enriched.java
+/Users/nikolaj/IdeaProjects/flink3/src/main/java/org/myorg/quickstart/sources/CsvSource1.java
+/Users/nikolaj/IdeaProjects/flink3/src/main/java/org/myorg/quickstart/joins/Join1.java
